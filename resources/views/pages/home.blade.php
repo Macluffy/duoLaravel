@@ -1,6 +1,7 @@
 @extends('template/index')
-@include('partial.header')
-@section('content')
-@include('partial/section-index')
 
+@section('content')
+@include('partial.header')
+@include('partial/section-index')
+@include('partial.reseau-sociaux')
 @endsection

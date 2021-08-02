@@ -1,8 +1,9 @@
 @extends('template.index')
-@include('partial.header-suiv')
+
 @section('content')
+@include('partial.header-suiv')
 @include('partial.section-portfolio')
 
 
-
+@include('partial.reseau-sociaux')
 @endsection

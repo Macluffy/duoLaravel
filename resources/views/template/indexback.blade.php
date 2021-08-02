@@ -46,21 +46,16 @@
 </head>
 <body>
 
-    @yield('content')
 
-    
-
-    @include('partial.footer')
+@yield('content')
 
 
 
 
 
 
-    
 
-
-    <!-- Bootstrap core JavaScript
+<!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 

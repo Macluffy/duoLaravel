@@ -19,14 +19,13 @@
 
             @foreach ($dataAll as $value)
                 
-           
             <div class="row">
 
                 <div class="col-md-9">
 
                     <div class="blog-post">
 
-                        <a href="blog-post.html"><img class="img-carousel post-img" src="{{asset($value->img)}}" alt=""></a>
+                        <a href="blog-post.html"><img class="img-carousel post-img" src="{{asset('img/'.$value->img)}}" alt=""></a>
 
                         <div class="post-content">
 

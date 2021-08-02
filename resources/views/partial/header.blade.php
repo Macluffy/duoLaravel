@@ -23,6 +23,9 @@
                     <li>
                         <a href="/contact">Contact</a>
                     </li> 
+                    <li>
+                        <a href="/backoffice">Back Office</a>
+                    </li>
                 </ul><!-- /.navbar-nav -->
             </div><!-- /.navbar-collapse -->
             

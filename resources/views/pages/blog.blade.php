@@ -1,6 +1,7 @@
 @extends('template.index')
-@include('partial.header-suiv')
-@section('content')
-@include('partial.section-blog')
 
+@section('content')
+@include('partial.header-suiv')
+@include('partial.section-blog')
+@include('partial.reseau-sociaux')
 @endsection
